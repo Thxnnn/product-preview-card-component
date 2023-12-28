@@ -21,7 +21,8 @@
 
 body {
     background-color: var(--cream);
-    overflow: hidden;
+    overflow: auto;
+    height: 100hv;
 }
 
 
@@ -52,7 +53,7 @@ body {
         display: flex;
         width: 666px; 
         margin: 0 auto;
-        height: 100vh;
+        height: 90vh;
         justify-content: center;
         align-items: center;
         
@@ -77,6 +78,9 @@ body {
 
 /* mobile */
 @media only screen and (max-width:600px){
+    body {
+        overflow: auto;
+    }
     .container {
         display: flex;
         width: 90%; 
@@ -167,9 +171,9 @@ body {
 .attribution { 
     font-size: 11px; 
     text-align: center;
-    position: fixed;
+    /* position: fixed;
     bottom: 10px;
-    right: 8px;
+    right: 8px; */
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
