@@ -162,3 +162,15 @@ body {
 .btn-cart img {
     margin-right: 8px;
 }
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 8px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
